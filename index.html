@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Orbitron:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="heder-wrapper">
+      <a href="index.html">
+        <div class="image-wrapper">
+          <img src="img/napis.png" alt="Kino" />
+        </div>
+      </a>
+      <nav>
+        <ul >
+          <li class="navigation">Aktualne hity kinowe</li>
+          <li class="navigation">Nadchodzące produkcje</li>
+          <li class="navigation">Kontakt</li>
+        </ul>
+      </nav>
+    </header>
+   
+
+
+    <section class="section-2-gallery">
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="img/film1.jpg" />
+		  
+        </div>
+        
+      </div>
+
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="./img/film2.jpg" "/>
+        </div>
+        
+      </div>
+
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="./img/film3.jpg" "/>
+        </div>
+        
+      </div>
+
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="./img/film4.jpg" "/>
+        </div>
+        
+      </div>
+
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="./img/film5.jpg" "/>
+        </div>
+       
+      </div>
+
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="./img/film6.jpg" "/>
+        </div>
+       
+      </div>
+
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="./img/film7.jpg" "/>
+        </div>
+       
+      </div>
+
+      <div class="gallery-item-wrapper">
+        <div class="photo-wrapper">
+          <img src="./img/film8.jpg" "/>
+        </div>
+      
+      </div>
+
+
+    </section>
+
+
+
+
+    <section class="section-3-form">
+      <div class="wrapper">
+     <div class="wrapper-inputs">
+      <div class="wrapper-input">
+            <label for="id-name">Wpisz imię:</label>
+            <input
+              type="text"
+              placeholder="Imię"
+              id="id-name"
+              name="firstName"
+              value="" />
+      </div>
+      <div class="wrapper-input">
+            <label for="id-lastName">Wpisz nazwisko:</label>
+            <input
+              type="text"
+              placeholder="Nazwisko:"
+              id="id-lastName"
+              name="lastName"
+              value="" />
+      </div>
+     </div>
+    <div class="wrapper-inputs">
+        <div class="wrapper-input">
+          <label for="id-email">Wpisz email:</label>
+          <input
+            type="text"
+            placeholder="Email"
+            id="id-email"
+            name="email"
+            value="" />
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="wrapper-inputs">
+        <div class="wrapper-input">
+          <label for="id-Kobieta">Kobieta:</label>
+          <input
+            type="checkbox"
+            id="id-Kobieta"
+            name="płeć"
+            value="Kobieta" />
+        </div>
+        <div class="wrapper-input">
+          <label for="id-Mężczyzna">Mężczyzna:</label>
+          <input
+            type="checkbox"
+            id="id-Mężczyzna"
+            name="płeć"
+            value="Mężczyzna" />
+        </div>
+        <div class="wrapper-input">
+          <label for="id-Wolę nie podawać">Wolę nie podawać:</label>
+          <input
+            type="checkbox"
+            id="id-Wolę nie podawać"
+            name="płeć"
+            value="Wolę nie podawać" />
+        </div>
+
+
+      </div>
+    </div>
+      <div class="wrapper-inputs">
+        <div class="wrapper-input">
+          <label for="id-wiek1">do 15lat:</label>
+          <input
+            type="radio"
+            id="id-wiek1"
+            name="wiek"
+            value="do 15lat" />
+        </div>
+        <div class="wrapper-input">
+          <label for="id-wiek2">15-20lat</label>
+          <input
+            type="radio"
+            id="id-wiek2"
+            name="wiek"
+            value="15-20lat" />
+        </div>
+        <div class="wrapper-input">
+          <label for="id-wiek3">powyżej 20lat</label>
+          <input
+            type="radio"
+            id="id-wiek3"
+            name="wiek"
+            value="Powyżej 20lat" />
+        </div>
+      </div>
+      <div class="wrapper">
+      <div class="wrapper-select">
+        <label for="school">Który film najbardziej ci się podoba? </label>
+        <select name="school" id="id-school">
+          <option value="brak">Wybierz film</option>
+          <option value="Ekonom">Orzeł ostatni patrol</option>
+          <option value="Mechanik">Gdzie diabeł nie może tam baby pośle</option>
+          <option value="Nafta">Amsterdam</option>
+          <option value="Budowlanka">Ania</option>
+          <option value="Gary">Bilet do raju</option>
+          <option value="Pola">Uśmiechnij się</option>
+          <option value="Sto">Top Gun maveric</option>
+          <option value="Selezjan">Bullet train</option>
+        </select>
+      </div>
+
+
+      <div class="wrapper-textarea">
+        <label for="id-comments">Wpisz komentarz</label>
+        <textarea rows="10" cols="80" placeholder="wpisz komentarz" id="id-comments" name="comments"></textarea>
+      </div>
+    </div>
+    </div>
+    <div class="wrapper-btn">
+      <button class="ver1" id="btnWyslij">wyślij</button>
+      <button class="ver2">wyczyść formularz</button>
+    </div>
+
+    </section>
+    <footer>
+      <h2>&copy; 2022 - Zadanie Jakub Brzeziński</h2>
+    </footer>
+  </main>
+
+  <script src="./skrypt.js"></script>
+</body>
+</html>
